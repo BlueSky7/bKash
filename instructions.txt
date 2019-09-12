@@ -1,0 +1,28 @@
+###------------------- Git Commands -------------------###
+
+#Initializes the current folder as a git repository
+>git init
+
+#Go to a location on local:
+>cd E:/"Work Station"/"Project Repositories"/Github
+
+#Add Origin
+>git remote add origin https://github.com/BlueSky7/git-test.git
+
+#Config Proxy server (if needed)
+#git config --global http.proxy http://proxyuser:proxypwd@proxy.server.com:8080
+>git config --global http.proxy http://kh.anwar@webgateway.bkash.com:4951
+
+#Clone
+>git clone https://github.com/BlueSky7/bKash.git
+
+#Status
+>git status
+# Add file(s)/folder(s)to staging area
+>git add .
+#Add specific files
+>git add "my files"
+#Commit & Comment
+>git commit -m "my comment"
+#Push
+>git push
