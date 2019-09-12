@@ -37,4 +37,9 @@
 >git checkout origin/branch_Asif
 #Create a new branch
 >git switch -c branch_Others
-
+# Current branch
+>git branch
+#Switch branch
+>git checkout branch_name (branch_Asif)
+#Pull from origin
+>git pull
