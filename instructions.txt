@@ -26,3 +26,15 @@
 >git commit -m "my comment"
 #Push
 >git push
+# Creating a branch in local
+>git checkout -b branch_Asif
+#Push the branch to the remote repository origin
+>git push -u origin branch_Asif
+    --Create a pull request for 'branch_Asif' on GitHub by visiting:
+    --remote:      https://github.com/BlueSky7/bKash/pull/new/branch_Asif
+#Teammates can reach your branch
+>git fetch
+>git checkout origin/branch_Asif
+#Create a new branch
+>git switch -c branch_Others
+
